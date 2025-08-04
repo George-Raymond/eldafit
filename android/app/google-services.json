@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "298413566427",
+    "project_id": "eldafit",
+    "storage_bucket": "eldafit.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298413566427:android:06004411f7cfbf352e1ffe",
+        "android_client_info": {
+          "package_name": "com.example.eldafit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298413566427-6jha86ck8lnomusenh4d0uiopkomnhqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHgejZJ1EWcffFvLQ5T6OKWlOx0k_q6Rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298413566427-6jha86ck8lnomusenh4d0uiopkomnhqb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "298413566427-tlqtplpolq4u9fevbfbivn91gtd218ro.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.eldafit"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
