@@ -1,0 +1,15 @@
+{
+  "@@locale": "en",
+  "dashboardTitle": "Dashboard",
+  "startWorkout": "Start Workout",
+  "voiceGuidance": "Voice Guidance",
+  "yourProgressSnapshot": "Your Progress Snapshot",
+  "daysLabel": "{days} days",
+  "@daysLabel": {
+    "description": "Number of workout days",
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "viewFullProgress": "View Full Progress"
+}

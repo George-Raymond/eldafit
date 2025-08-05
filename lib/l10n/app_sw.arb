@@ -1,0 +1,15 @@
+{
+  "@@locale": "sw",
+  "dashboardTitle": "Dashibodi",
+  "startWorkout": "Anza Mazoezi",
+  "voiceGuidance": "Mwongozo wa Sauti",
+  "yourProgressSnapshot": "Muhtasari wa Maendeleo Yako",
+  "daysLabel": "Siku {days}",
+  "@daysLabel": {
+    "description": "Idadi ya siku zilizofanyika mazoezi",
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "viewFullProgress": "Tazama Maendeleo Yote"
+}
