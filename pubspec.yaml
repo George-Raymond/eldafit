@@ -1,6 +1,7 @@
 name: eldafit
 description: "A new Flutter project."
 publish_to: 'none'
+
 version: 1.0.0+1
 
 environment:
@@ -22,6 +23,12 @@ dependencies:
   barcode_widget: ^2.0.4
   firebase_messaging: ^16.0.0
   flutter_signin_button: ^2.0.0
+  lottie: ^3.3.1
+  percent_indicator: ^4.0.0
+  url_launcher: ^6.2.5 # 👈 for email/call links
+  google_fonts: ^6.1.0
+  image_picker: ^1.1.0
+
 
 dev_dependencies:
   flutter_test:
@@ -39,6 +46,13 @@ flutter:
     - assets/facebook_icon.png
     - assets/progress_icon1.png
     - assets/progress_icon2.png
+    - assets/workout_flow.png  
+    - assets/dashboard.jpg # 👈 Added image
+    - assets/user_avatar.png
+    - assets/knee_friendly_squat.png
+    - assets/user_profile.png
+    - assets/photo1.png
+    - assets/photo2.png
   
 
 flutter_gen:

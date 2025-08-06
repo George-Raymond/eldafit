@@ -32,7 +32,7 @@ class SplashScreen extends StatelessWidget {
               const SizedBox(height: 48),
               ElevatedButton(
                 onPressed: () {
-                  Navigator.pushReplacementNamed(context, '/register');
+                  Navigator.pushReplacementNamed(context, '/dashboard');
                 },
                 style: ElevatedButton.styleFrom(
                   minimumSize: const Size(double.infinity, 50),

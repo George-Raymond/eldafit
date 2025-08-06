@@ -4,9 +4,10 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'firebase_options.dart';
 import 'package:eldafit/Splash_Screen/splash_screen.dart';
-import 'package:eldafit/Authentication/register.dart';
 import 'package:eldafit/Dashboard/dashboard_page.dart';
 import 'package:eldafit/Authentication/login_page.dart' as auth;
+import 'package:eldafit/WorkOut_Player/workout_player.dart';
+import 'package:eldafit/Subscription/subscription_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -54,9 +55,10 @@ class _MyAppState extends State<MyApp> {
       initialRoute: '/splash',
       routes: {
         '/splash': (context) => SplashScreen(),
-        '/register': (context) => const AuthPage(),
         '/auth': (context) => const auth.LoginPage(),
-        '/dashboard': (context) => const DashboardPage(),
+        '/dashboard': (context) => const DashboardScreen(),
+        '/workout': (context) => const WorkoutPlayer(),
+        '/subscription': (context) => const SubscriptionPage(),
       },
     );
   }
